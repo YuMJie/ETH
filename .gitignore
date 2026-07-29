@@ -1,0 +1,42 @@
+# Python caches and native build products
+**/__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+**/build/
+dist/
+
+# Local environments and editor state
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Local agent and task orchestration state
+.agent/
+.agents/
+.codex/
+.mission/
+AGENTS.md
+CLAUDE.md
+
+# Generated profiling, search, and training outputs
+logs/
+logs-large/
+results/
+checkpoints/
+profiler/profiled-time-*/
+profiler/npu_profile*/
+profiler/profiler-npu/
+*.log
+*.pkl
+*.out
+*.err
+*.pt
+*.pth
+*.ckpt
+
+# Machine-local distributed launch inputs
+pssh-*.host

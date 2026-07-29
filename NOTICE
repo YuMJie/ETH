@@ -1,0 +1,35 @@
+ETH
+
+This repository is derived from Microsoft SuperScaler:
+https://github.com/microsoft/SuperScaler
+
+The imported SuperScaler lineage ends at upstream revision
+25ded0501501ef8301c89e7d99bbbdc490b1efbe. Microsoft copyright and MIT
+license notices are retained in source files and in LICENSE.
+
+Retained files under eth/runtime/megatron include code copied or adapted from
+NVIDIA Megatron-LM v2.4 at revision
+42c1cf4279acea5a554500dcb552211f44cbec45. Existing NVIDIA copyright and
+Apache-2.0 notices remain in those files. See LICENSES/Apache-2.0.txt.
+
+NVIDIA Apex is retained as the only required external submodule, pinned at
+a651e2c24ecf97cbf367fd3f330df36760e1c597. Apex is distributed under a
+BSD-3-Clause license; its complete upstream license is retained at
+external/apex/LICENSE and reproduced in LICENSES/BSD-3-Clause.txt.
+
+eth/runtime/megatron/data/indexed_dataset.py contains code copied and modified
+from fairseq, Copyright (c) Facebook, Inc. and its affiliates, under the MIT
+License. See the file header and LICENSES/MIT.txt.
+
+eth/runtime/megatron/mpu/layers.py, eth/runtime/megatron/mpu/random.py, and
+eth/runtime/megatron/optimizer/clip_grads.py contain portions adapted from
+PyTorch, which is distributed under the BSD-3-Clause license. See the source
+file notices and LICENSES/BSD-3-Clause.txt.
+
+The retained GPT tokenizer source includes code from the OpenAI team and the
+Hugging Face team under Apache-2.0. Its copyright and license notice remains
+in the corresponding source file.
+
+This notice records upstream provenance only. It does not assert ownership by
+ETH or by any publishing institution. Formal publication should receive an
+institutional ownership and license review.

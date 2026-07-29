@@ -1,0 +1,164 @@
+{
+  "hidden_size": 64,
+  "max_position_embeddings": 32,
+  "model_impl": "gpt",
+  "model_name": "gpt",
+  "model_size": "fixture",
+  "num_attention_heads": 8,
+  "num_layers": 4,
+  "pipe": [
+    {
+      "algo_of_each_stage": [
+        0
+      ],
+      "checkpoint_activations": [
+        false
+      ],
+      "context_parallel_size_of_each_stage": [
+        1
+      ],
+      "data_parallel_size_of_each_stage": [
+        2
+      ],
+      "global_batch_size": 24,
+      "micro_batch_size": 8,
+      "model_parallel_size_of_each_stage": [
+        1
+      ],
+      "num_gpus": [
+        2
+      ],
+      "num_ops_in_each_stage": [
+        43
+      ],
+      "num_stages": 1,
+      "recompute_ops": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "resharding_stages": [
+        false
+      ]
+    },
+    {
+      "algo_of_each_stage": [
+        0
+      ],
+      "checkpoint_activations": [
+        false
+      ],
+      "context_parallel_size_of_each_stage": [
+        1
+      ],
+      "data_parallel_size_of_each_stage": [
+        1
+      ],
+      "global_batch_size": 24,
+      "micro_batch_size": 8,
+      "model_parallel_size_of_each_stage": [
+        2
+      ],
+      "num_gpus": [
+        2
+      ],
+      "num_ops_in_each_stage": [
+        43
+      ],
+      "num_stages": 1,
+      "recompute_ops": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "resharding_stages": [
+        false
+      ]
+    }
+  ],
+  "seq_length": 32
+}

@@ -1,0 +1,16 @@
+{
+  "node_info": {
+    "0": {
+      "GPU": "example-gpu",
+      "GPU_NUM": 4,
+      "NODE_NUM": 1
+    }
+  },
+  "device_info": {
+    "example-gpu": {
+      "memory": 64000,
+      "intra_bandwidth": 20,
+      "TFLOPS": 100
+    }
+  }
+}
