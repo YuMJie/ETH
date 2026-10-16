@@ -204,9 +204,26 @@ They are validation examples, not hardware measurements or performance claims.
   `scripts/train_gpt.sh`.
 
 
+## Citation
+If you use ETH for your research, please cite our [paper](https://arxiv.org/abs/2610.22035):
+```bibtex
+@misc{yu2026ethdatabalancedheterogeneouspipeline,
+      title={ETH: Data-Balanced Heterogeneous Pipeline Parallelism for Training Large Models}, 
+      author={Mianjie Yu and Zhongmin Zhao and Zizhao Mo and Jianxiong Liao and Wenxuan Li and Yulin Qiao and Huanle Xu and Wenquan Yang and Yongqiang Yang and Zeren Li and Ruifeng Tang and Chengzhong Xu},
+      year={2026},
+      eprint={2610.22035},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC},
+      url={https://arxiv.org/abs/2610.22035}, 
+}
+```
+
 ## Other
 
 This repository is derived from
 [Microsoft SuperScaler](https://github.com/microsoft/SuperScaler) and retains
 runtime code adapted from NVIDIA Megatron-LM. See `NOTICE` for source revisions,
 license provenance, and other retained upstream components.
+
+
+
